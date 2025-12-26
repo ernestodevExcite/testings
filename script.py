@@ -17,7 +17,7 @@ def create_many_commits(repo_path):
     repo = git.Repo(repo_path)
 
     # Generar un número aleatorio de commits (entre 200 y 300)
-    num_commits = random.randint(350, 500)
+    num_commits = random.randint(380, 500)
 
     for i in range(num_commits):
         # Generar una fecha y hora aleatoria en el pasado reciente
@@ -52,7 +52,7 @@ def create_many_commits(repo_path):
     print(f'Created {num_commits} random commits in {repo_path}.')
 
 # Parámetros para el ejemplo
-repo_path = r'C:\Users\Ernesto\Desktop\projects\commits\testing'  # Aplica tu ruta de tu ordenador
+repo_path = r'C:\Users\Ernesto\Desktop\trabajo\testings'  # Aplica tu ruta de tu ordenador
 
 # Crear muchos commits aleatorios   
 create_many_commits(repo_path)
