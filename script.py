@@ -47,7 +47,7 @@ def create_many_commits(repo_path):
         os.remove(file_name)
 
     # Hacer push de los commits al repositorio remoto
-    subprocess.run(['git', 'push', 'origin', 'main'], check=True)
+    #subprocess.run(['git', 'push', 'origin', 'main'], check=True)
 
     print(f'Created {num_commits} random commits in {repo_path}.')
 
